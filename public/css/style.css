@@ -183,7 +183,9 @@ body{padding: 4.5rem;
             
         }
           .responses-background {
-            background-color: #f3ffbd;
+          background: rgba(255, 255, 255, .7);
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
         }
   
   
