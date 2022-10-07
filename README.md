@@ -31,7 +31,9 @@ Middleware used:
 I used OAuth authentication via the GitHub strategy.
 I also used OAuth authentication via providing a dummy account (your can register your own account.)
 - **Tech Achievement 3** (5 points): Here are the lighthouse scores:
+![Login full score](public/images/lighthouse-1.png)
 
+![Response full score](public/images/lighthouse-2.png)
 ### Design/Evaluation Achievements
 
 - **Design Achievement 1**:
