@@ -96,9 +96,8 @@ function updateUserTable() {
             row.cells[2].innerHTML = rowData.score;
             row.cells[3].innerHTML = rowData.comment;
             row.cells[4].innerHTML = getDegree(rowData.score);
-            row.cells[5].innerHTML = rowData.fruit;
-            row.cells[6].innerHTML = '<button class="btn btn-dark" onclick="editRow(' + rowIndex + ')">Edit</button>';
-            row.cells[7].innerHTML = '<button class="btn btn-dark" onclick="deleteRow(' + rowIndex + ')">Delete</button>';
+            row.cells[5].innerHTML = '<button class="btn btn-dark" onclick="editRow(' + rowIndex + ')">Edit</button>';
+            row.cells[6].innerHTML = '<button class="btn btn-dark" onclick="deleteRow(' + rowIndex + ')">Delete</button>';
 
             rowIndex++;
         }
@@ -109,13 +108,13 @@ function getDegree(score) {
 
     if(score>=0 && score<=19){
         return "Strongly Not Recommended";
-      }else if(response.score>=20 && response.score<=39){
+      }else if(score>=20 && score<=39){
         return "Relatively Not Recommended";
-      }else if(response.score>=40 && response.score<=59){
+      }else if(score>=40 && score<=59){
         return "Neutral";
-      }else if(response.score>=60 && response.score<=79){
+      }else if(score>=60 && score<=79){
         return "Relatively Recommended";
-      }else if(response.score>=80 && response.score<=100){
+      }else if(score>=80 && score<=100){
         return "Strongly Recommended";
       }
        else{"Please enter a valid score"}

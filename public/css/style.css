@@ -16,9 +16,12 @@ body{padding: 4.5rem;
   
   table {
     border-collapse: collapse;
-    border: 2px solid black;
+    border: 4px solid black;
     letter-spacing: 1px;
     width: 90%;
+    background: rgba(255, 255, 255, .7);
+                -webkit-backdrop-filter: blur(10px);
+                backdrop-filter: blur(10px);
   }
   
   th, td {
@@ -26,90 +29,7 @@ body{padding: 4.5rem;
       padding: 20px;
   }
   
-  
-  #blogText {
-    margin-left: 100px;
-    margin-right:  100px;
-    padding: 10px;
-    line-height: 1.6; 
-    text-indent:2em; 
-   }
-  
-  #buttons {
-      display: flex;
-    background-color: #f49097;
-    color: #083d77;
-    font-weight: bold;
-    text-decoration: none;
-  
-    align-items: center;
-    padding: 10px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-       background: rgba(255, 255, 255, .7);
-      -webkit-backdrop-filter: blur(10px);
-      backdrop-filter: blur(10px);
-      text-align: center;
-    border-radius: 1rem;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  
-  #mainTitle {
-    text-align: center;
-    vertical-align:top;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    font-family: 'Silkscreen', cursive;
-    font-size: 2em;
-    color: #f4a83a;
-    text-shadow: 0 4px 0 #333333;
-    background: url("../images/title.png") no-repeat fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-size: cover;
-    height: 230px;
-    margin-top: -80px;
-  }
-  
-  #review{
-    padding: 2rem;
-    font-family: 'Silkscreen', cursive;
-  }
-  #resultTable {
-    margin-left: 30px;
-    margin-right:30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background: rgba(255, 255, 255, .7);
-                -webkit-backdrop-filter: blur(10px);
-                backdrop-filter: blur(10px);
-    border-radius: 1rem;
-  }
-  #textboxid
-  {
-      height:200px;
-      font-size:14pt;
-  }
-  
-  .autoMargin {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-  
-  .centerText {
-    text-align: center;
-    margin-top: 10px; 
-    justify-content: space-around;
-  }
+
   
   
   .card {
@@ -134,36 +54,7 @@ body{padding: 4.5rem;
     font-family: 'Silkscreen', cursive;
   }
   
-  .deleteButton {
-              text-decoration: none;
-              border: none;
-              padding: 12px 40px;
-              font-size: 16px;
-              background: rgba(255, 255, 255, .7);
   
-    
-  }.deleteButton:active {
-              transform: scale(0.98);
-              /* Scaling button to 0.98 to its original size */
-              box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-              /* Lowering the shadow */
-          }
-  .submitButton {
-              text-decoration: none;
-              border: none;
-              padding: 12px 40px;
-              font-size: 16px;
-              background: rgba(255, 255, 255, .7);
-                -webkit-backdrop-filter: blur(10px);
-                backdrop-filter: blur(10px);
-              color: black;
-              border-radius: 5px;
-              box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
-              cursor: pointer;
-              outline: none;
-              transition: 0.2s all;
-              text-align: center;
-          }
           /* Adding transformation when the button is active */
             
           .submitButton:active {
@@ -175,7 +66,7 @@ body{padding: 4.5rem;
   
 
           .header-footer-background {
-            background-image: url("../images/title.png");
+            background-image: url("https://cdn.glitch.global/f39204c7-bf02-4234-a30d-bb427732b289/title.webp?v=1665106182563");
             background-color: #f5e960;
             height: 250px;
             background-repeat: no-repeat;
@@ -183,7 +74,9 @@ body{padding: 4.5rem;
             
         }
           .responses-background {
-            background-color: #f3ffbd;
+          background: rgba(255, 255, 255, .7);
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
         }
   
   
